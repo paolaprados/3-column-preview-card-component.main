@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&display=swap");
+body {
+  color: #fff;
+  background-color: #fff;
+}
+.contenedor {
+  margin: 73px 0;
+  display: grid;
+  margin-bottom: 0px;
+  justify-content: center;
+  object-fit: cover;
+  grid-template-columns: repeat(3, minmax(100px, 250px));
+}
+.SEDAND {
+  padding: 30px;
+  background-color: #e38826;
+  height: 380px;
+  border-radius: 10px 0 0 10px;
+}
+.SUVS {
+  padding: 30px;
+  background-repeat: no-repeat;
+  background-color: #006970;
+  height: 380px;
+}
+.LUXURY {
+  padding: 30px;
+  background-color: #004241;
+  height: 380px;
+  border-radius: 0 10px 10px 0;
+}
+.titulo {
+  color: #fff;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.parrafo {
+  text-align: initial;
+  font-family: "Lexend Deca", sans-serif;
+}
+.button1 {
+  height: 39px;
+  width: 120px;
+  margin-top: 58px;
+  border: none;
+  background-color: #fff;
+  color: #e38826;
+  border-radius: 20px;
+}
+.button2 {
+  height: 39px;
+  width: 120px;
+  margin-top: 58px;
+  border: none;
+  background-color: #fff;
+  color: #006970;
+  border-radius: 20px;
+}
+
+.button3 {
+  height: 39px;
+  width: 120px;
+  margin-top: 58px;
+  /* margin: 47px; */
+  border: none;
+  background-color: #fff;
+  color: #004241;
+  border-radius: 20px;
+}
+.carrito {
+  width: 83px;
+  /* margin: 24px; */
+}
+@media (max-width: 400px) {
+  .contenedor {
+    /* margin: 0; */
+    display: grid;
+    align-items: center;
+    margin-bottom: 0px;
+    justify-content: center;
+    object-fit: cover;
+    grid-template-columns: repeat(1, minmax(100px, 250px));
+    width: 100%;
+    height: 100%;
+  }
+  .SEDAND {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: #e38826;
+    height: 380px;
+    border-radius: 10px 10px 0 0;
+  }
+  .SUVS {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-repeat: no-repeat;
+    background-color: #006970;
+    height: 380px;
+  }
+  .LUXURY {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: #004241;
+    height: 380px;
+    border-radius: 0 0 10px 10px;
+  }
+  .button1 {
+    height: 39px;
+    width: 97px;
+    /* margin-top: -16px; */
+    border: none;
+    background-color: #fff;
+    color: #e38826;
+    border-radius: 20px;
+  }
+  .button2 {
+    height: 39px;
+    width: 97px;
+    /* margin-top: -16px; */
+    border: none;
+    background-color: #fff;
+    color: #006970;
+    border-radius: 20px;
+  }
+
+  .button3 {
+    height: 39px;
+    width: 97px;
+    /* margin-top: -16px; */
+    border: none;
+    background-color: #fff;
+    color: #004241;
+    border-radius: 20px;
+  }
+  .carrito {
+    width: 61px;
+    /* margin: 24px; */
+  }
+}
